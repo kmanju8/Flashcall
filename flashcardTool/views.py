@@ -11,7 +11,7 @@ def profile(request):
     return HttpResponse('Profile page - view cards and decks')
 
 def addCardsAndDecks(request): 
-    return HttpResponse('Make cards and add them to decks on this page')
+    return HttpResponse('Make cards and add them to decks')
 
 
 
